@@ -1,0 +1,22 @@
+void setup() {
+  pinMode(2, OUTPUT);  // set digital pin 2 as an output
+  pinMode(3, OUTPUT);  // set digital pin 3 as an output
+  pinMode(4, OUTPUT);  // set digital pin 4 as an output
+}
+
+void loop() {
+  digitalWrite(2, HIGH);   // turn the LED connected to pin 2 on
+  delay(500);              // wait for 500 milliseconds
+  digitalWrite(2, LOW);    // turn the LED connected to pin 2 off
+  delay(500);              // wait for 500 milliseconds
+
+  digitalWrite(3, HIGH);   // turn the LED connected to pin 3 on
+  delay(500);              // wait for 500 milliseconds
+  digitalWrite(3, LOW);    // turn the LED connected to pin 3 off
+  delay(500);              // wait for 500 milliseconds
+
+  digitalWrite(4, HIGH);   // turn the LED connected to pin 4 on
+  delay(500);              // wait for 500 milliseconds
+  digitalWrite(4, LOW);    // turn the LED connected to pin 4 off
+  delay(500);              // wait for 500 milliseconds
+}
